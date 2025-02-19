@@ -1,3 +1,7 @@
+'''
+Seen example of UML diagram in class and its subsequent implementation.
+'''
+
 from abc import ABC, abstractmethod
 
 

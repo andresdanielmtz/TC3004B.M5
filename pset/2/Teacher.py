@@ -1,3 +1,7 @@
+'''
+Implementation of abstract class through UML diagrams.
+'''
+
 from abc import ABC, abstractmethod
 
 
