@@ -1,12 +1,19 @@
-from order import Order
+'''
+Archivo principal, PSET #1
+'''
 
-personal_order = {
-    "id": 1252,
-    "items": [
-        {"name": "thing 1", "price": 500, "amount": 500},
-        {"name": "thing 1", "price": 500, "amount": 500},
+from Order import Order
+
+order = Order(
+    "Orden #1",
+    [
+        {"name": "Jugo", "price": 100, "amount": 1},
+        {"name": ":D", "price": 10, "amount": 1},
     ],
-}
+    "US",
+    "CA",
+    "PK",
+)
+total = order.get_tax_order()
 
-res = Order(personal_order)
-res.printTotal()
+print(f"El total que se va a pagar es {total}")
