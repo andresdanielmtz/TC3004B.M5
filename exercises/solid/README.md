@@ -2,6 +2,8 @@
 
 ## TC3004B - Planeación de Sistemas de Software
 
+**Original Link**: https://github.com/SourSushi360/TC3004B.SOLID
+
 > Luis Marco Barriga Baez A01643954
 
 > David Sanchez Baez A01798202
