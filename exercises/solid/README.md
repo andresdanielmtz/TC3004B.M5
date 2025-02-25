@@ -14,6 +14,13 @@
 
 > Victor Javier Quintana Cisneros A01643020
 
+## SOLID 
+- S: Single Responsibility
+- O: Open-Closed Principle 
+- L: Liskov Substitution Principle 
+- I: Interface Segregation Principle
+- D: Dependency Inversion Principle
+
 ### 1.- Gestión de Notificaciones
 
 ![Notification](images/1.png)
