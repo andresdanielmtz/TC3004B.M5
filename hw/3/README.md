@@ -2,7 +2,7 @@
 
 Andrés Martínez - A00227463
 
-> Heavily based on [Refactory Guru Example](https://refactoring.guru/design-patterns/abstract-factory/python/example)
+> Based on [Refactory Guru Example](https://refactoring.guru/design-patterns/abstract-factory/python/example) and [GeeksForGeeks](https://www.geeksforgeeks.org/abstract-factory-pattern/) examples.
 
 ## Diagrama
 
