@@ -1,15 +1,18 @@
-'''
-Factory Design Pattern
-Andrés Martínez - A00227463
+from client import Client
+from factory.ASUSFactoryClass import ASUSFactory
+from factory.HPFactoryClass import HPFactory
 
-Sodafactory, it creates CocaColaFactory and PepsiFactory
-'''
 
-from pepsi import PepsiFactory
-from cocacola import CocaColaFactory
-        
-pepsi_factory = PepsiFactory()
-cocacola_factory = CocaColaFactory()
+def main():
+    clientInstance = Client()
 
-pepsi_factory.factory_method()
-cocacola_factory.factory_method()
+    print("\n Client (ASUS): \n")
+    clientInstance.client_code(ASUSFactory())
+    
+
+    print("\n Client (HP): \n")
+    clientInstance.client_code(HPFactory())
+
+
+if __name__ == "__main__":
+    main()
