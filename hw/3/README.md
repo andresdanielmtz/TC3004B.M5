@@ -1,6 +1,6 @@
 # Tarea 3
 
-Andrés Martínez - A00227463
+Andrés Martínez - _A00227463_
 
 > Based on [Refactory Guru Example](https://refactoring.guru/design-patterns/abstract-factory/python/example) and [GeeksForGeeks](https://www.geeksforgeeks.org/abstract-factory-pattern/) examples.
 
@@ -10,7 +10,7 @@ Debido a que este programa no utiliza librerías externas, no es necesario insta
 
 Para ejecutar el programa, puedes utilizar el siguiente comando:
 
-```
+```bash
 python3 main.py
 ```
 
@@ -25,3 +25,7 @@ Para esta implementación creamos una fabrica de computadoras a partir de sus in
 A partir de esto podemos crear fabricas concretas, en nuestro caso sería la fabrica de ASUS y HP (`./factory/ASUSFactoryClass` y ``./factory/HPFactoryClass`).
 
 Finalmente podemos declarar la funcionalidad de estos productos de cada marca en (`./model/ASUS.py` y `./model/HP.py`) y crear una clase Client que maneje estas fabricas (`./client.py`)
+
+## Trivia
+
+La carpeta `.unused` es un archivo de una implementación temprana del proyecto, y actualmente en desuso, puesto que usaba el Factory Pattern en lugar del Abstract Factory Pattern.
