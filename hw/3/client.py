@@ -5,6 +5,11 @@ class Client():
     
     @staticmethod
     def client_code(LaptopFactory: ComputerFactory):
+        
+        # Will do an advertisement if it has the function for it. Currently only ASUS does.
+        if hasattr(LaptopFactory,'advertisement'):
+            LaptopFactory.advertisement()    
+        
         laptop = LaptopFactory.create_laptop()
         desktop = LaptopFactory.create_desktop()
         handheld = LaptopFactory.create_handheld()

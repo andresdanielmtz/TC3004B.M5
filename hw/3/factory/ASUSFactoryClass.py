@@ -9,6 +9,13 @@ from models.ASUS import ASUSDesktop, ASUSLaptop, ASUSHandheld
 
 
 class ASUSFactory(ComputerFactory):
+    def advertisement(self):
+        print("""\n\n\n
+              ---
+              ASUS: Where the magic happens!
+              ---
+              \n\n\n""")
+    
     def create_laptop(self) -> Laptop:
         return ASUSLaptop()
 

@@ -8,6 +8,7 @@ def main():
 
     print("\n Client (ASUS): \n")
     clientInstance.client_code(ASUSFactory())
+    
 
     print("\n Client (HP): \n")
     clientInstance.client_code(HPFactory())
