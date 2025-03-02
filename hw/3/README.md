@@ -4,6 +4,16 @@ Andrés Martínez - A00227463
 
 > Based on [Refactory Guru Example](https://refactoring.guru/design-patterns/abstract-factory/python/example) and [GeeksForGeeks](https://www.geeksforgeeks.org/abstract-factory-pattern/) examples.
 
+## Instalación y Ejecución
+
+Debido a que este programa no utiliza librerías externas, no es necesario instalar dependencias, etc. Utiliza únicamente funciones y atributos dentro de la librería estándar de Python (3.13.0)
+
+Para ejecutar el programa, puedes utilizar el siguiente comando:
+
+```
+python3 main.py
+```
+
 ## Diagrama
 
 ![Diagrama UML](assets/uml.png)
