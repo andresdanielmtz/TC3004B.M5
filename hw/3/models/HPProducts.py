@@ -16,7 +16,6 @@ class HPDesktop(Desktop):
     def boot(self):
         print("Booting up, HP Desktop")
 
-
 class HPHandheld(Handheld):
     def boot(self):
         print("Booting up, HP Handheld")
