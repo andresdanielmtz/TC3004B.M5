@@ -5,7 +5,7 @@ sys.path.append("..")
 from computers.DesktopInterface import Desktop
 from computers.HandheldInterface import Handheld
 from computers.LaptopInterface import Laptop
-from models.ASUS import ASUSDesktop, ASUSLaptop, ASUSHandheld
+from models.ASUSProducts import ASUSDesktop, ASUSLaptop, ASUSHandheld
 
 
 class ASUSFactory(ComputerFactory):

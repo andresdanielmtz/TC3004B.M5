@@ -16,7 +16,6 @@ class ASUSDesktop(Desktop):
     def boot(self):
         print("Booting up, ASUS Desktop")
 
-
 class ASUSHandheld(Handheld):
     def boot(self):
         print("Booting up, ASUS Handheld")

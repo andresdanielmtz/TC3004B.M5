@@ -7,7 +7,7 @@ sys.path.append("..")
 from computers.DesktopInterface import Desktop
 from computers.HandheldInterface import Handheld
 from computers.LaptopInterface import Laptop
-from models.HP import HPDesktop, HPLaptop, HPHandheld
+from models.HPProducts import HPDesktop, HPLaptop, HPHandheld
 from random import randint
 
 
