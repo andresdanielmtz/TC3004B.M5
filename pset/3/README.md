@@ -2,6 +2,10 @@
 ## Diseño UML con el Patrón Abstract Factory 
 Andrés Martínez - A00227463
 
+## To-Do
+Revisar repositorio de Github con implementación vista en clase 
+https://github.com/davidsnhr/Factory
+
 ### Instalación y Ejecución
 Este programa no requiere de ninguna librería externa.
 Para ejecutar el proyecto, puedes utilizar el siguiente comando dentro del directorio del proyecto:
