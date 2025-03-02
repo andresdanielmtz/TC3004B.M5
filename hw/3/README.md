@@ -6,7 +6,7 @@ Andrés Martínez - A00227463
 
 ## Diagrama
 
-![Diagrama UML]("assets/uml.png")
+![Diagrama UML](assets/uml.png)
 
 ## Explicación
 
